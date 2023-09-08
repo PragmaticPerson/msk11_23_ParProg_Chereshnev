@@ -1,0 +1,3 @@
+Processor: IntelCore i5-8250 1.6GHz
+RAM: 8Gb
+Video Card: MX150 2Gb
