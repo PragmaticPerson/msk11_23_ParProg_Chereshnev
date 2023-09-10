@@ -46,8 +46,8 @@ FILE* openFile(const char* fileName, const char* mode) {
 }
 
 void printFileContent(FILE* file) {
-    if (file != NULL) {
-        perror("Ошибка чтения файла! Невозможно вывести содержимое в консоль.");
+    if (file == NULL) {
+        printf("Ошибка чтения файла! Невозможно вывести содержимое в консоль.");
         return;
     }
     char line[100];
